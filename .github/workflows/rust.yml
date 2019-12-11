@@ -1,14 +1,6 @@
 name: Rust
 
-on:
-  push:
-    paths-ignore:
-      - ".github/**"
-      - "*.md"
-  pull_request:
-    paths-ignore:
-      - ".github/**"
-      - "*.md"
+on: [push, pull_request]
 
 jobs:
   test:
